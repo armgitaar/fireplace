@@ -7,7 +7,8 @@ import dev.alpas.fireplace.controllers.ProjectMembershipController
 import dev.alpas.fireplace.controllers.TaskController
 import dev.alpas.fireplace.controllers.WelcomeController
 import dev.alpas.routing.RouteGroup
-import dev.alpas.routing.Router
+import dev.alpas.routing.Route
+import dev.alpas.routing.Router2
 
 fun Router.addRoutes(env: Environment) = apply {
     group {
